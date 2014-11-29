@@ -17,7 +17,6 @@ var fixture2 = fs.readFileSync(path.fixture2, opt);
 // Test failure
 if (target !== fixture1 && target !== fixture2) {
   console.error('See: diff dist/XmasPresent.css test/fixture[1-2].js');
-  process.stdout.write(stdout);
   process.exit(1);
   return;
 }
