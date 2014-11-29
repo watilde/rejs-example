@@ -6,21 +6,19 @@ var opt = {
 };
 var path = {
   target: path.resolve(__dirname + '/../dist/XmasPresent.js'),
-  fixture: path.resolve(__dirname + '/fixture.js')
+  fixture1: path.resolve(__dirname + '/fixture1.js'),
+  fixture2: path.resolve(__dirname + '/fixture2.js')
 };
 
 var target = fs.readFileSync(path.target, opt);
-var fixture = fs.readFileSync(path.fixture, opt);
+var fixture1 = fs.readFileSync(path.fixture1, opt);
+var fixture2 = fs.readFileSync(path.fixture2, opt);
 
 // Test failure
-if (target !== fixture) {
-  exec('diff ' + path.target + ' ' + path.fixture,
-    function (err, stdout, stderr) {
-      console.error('See: diff test/fixture.js dist/XmasPresent.css');
-      process.stdout.write(stdout);
-      process.exit(1);
-    }
-  );
+if (target !== fixture1 && target !== fixture2) {
+  console.error('See: diff dist/XmasPresent.css test/fixture[1-2].js');
+  process.stdout.write(stdout);
+  process.exit(1);
   return;
 }
 
