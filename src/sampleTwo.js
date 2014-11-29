@@ -1,0 +1,7 @@
+(function() {
+
+  xmas.present = {
+    box: {}
+  };
+
+}());
