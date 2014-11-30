@@ -1,5 +1,4 @@
 var xmas = {};
-
 (function() {
 
   xmas.present = {
@@ -7,7 +6,6 @@ var xmas = {};
   };
 
 }());
-
 (function(global) {
 
   global.xmas.present.box.color = 'Red';

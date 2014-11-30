@@ -10,7 +10,7 @@
     "grunt-rejs": "^0.1.2",
     "gulp": "^3.8.10",
     "gulp-rejs": "0.0.1",
-    "rejs": "^0.0.2"
+    "rejs": "git://github.com/Moncader/rejs.git#aab764207a83beab6cd81264f48d5968eb6142ba"
   },
   "scripts": {
     "cli": "rejs --out dist/XmasPresent.js src/*.js",
