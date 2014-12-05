@@ -10,7 +10,7 @@
     "grunt-cli": "^0.1.13",
     "grunt-rejs": "^0.1.3",
     "gulp": "^3.8.10",
-    "gulp-rejs": "0.0.1",
+    "gulp-rejs": "^0.0.1",
     "rejs": "0.0.4"
   },
   "scripts": {
