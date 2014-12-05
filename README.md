@@ -1,4 +1,5 @@
-rejs-example
+# rejs-example [![Build Status](https://api.travis-ci.org/watilde/rejs-example.svg)](https://travis-ci.org/watilde/rejs-example)
+
 ============
 
 Code examples using rejs.
