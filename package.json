@@ -2,15 +2,16 @@
   "name": "rejs-example",
   "version": "1.0.0",
   "description": "Code examples using rejs",
+  "repository": "rejs/rejs-example",
   "dependencies": {
   },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
-    "grunt-rejs": "^0.1.2",
+    "grunt-rejs": "^0.1.3",
     "gulp": "^3.8.10",
     "gulp-rejs": "0.0.1",
-    "rejs": "git://github.com/Moncader/rejs.git#aab764207a83beab6cd81264f48d5968eb6142ba"
+    "rejs": "0.0.4"
   },
   "scripts": {
     "cli": "rejs --out dist/XmasPresent.js src/*.js",
