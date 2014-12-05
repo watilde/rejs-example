@@ -1,5 +1,4 @@
-rejs-example [![Build Status](https://api.travis-ci.org/watilde/rejs-example.svg)](https://travis-ci.org/watilde/rejs-example)
-============
+# rejs-example [![Build Status](https://api.travis-ci.org/watilde/rejs-example.svg)](https://travis-ci.org/watilde/rejs-example)
 
 Code examples using rejs.
 Test and buid code are using npm run-scripts.
@@ -23,3 +22,8 @@ $ npm test
 $ npm run gulp
 $ npm test
 ```
+
+# LICENSE
+Copyright (c) 2014 Daijiro Wachi
+
+This software is released under the MIT License, see [LICENSE](/LICENSE).
