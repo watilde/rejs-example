@@ -1,0 +1,12 @@
+script:
+  - "npm run rejs"
+  - "npm test"
+  - "npm run grunt"
+  - "npm test"
+  - "npm run gulp"
+  - "npm test"
+
+language: node_js
+
+node_js:
+  - 0.10
