@@ -4,30 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>rejs-example by watilde</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/watilde/rejs-example">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/watilde/rejs-example/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/watilde/rejs-example/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1>rejs-example</h1>
-        <p>Code examples using rejs</p>
 
-        <p class="view"><a href="https://github.com/watilde/rejs-example">View the Project on GitHub <small>watilde/rejs-example</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/watilde/rejs-example/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/watilde/rejs-example/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/watilde/rejs-example">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
       <section>
+        <div id="title">
+          <h1>rejs-example</h1>
+          <p>Code examples using rejs</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/watilde">watilde</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
         <h1>
 <a id="rejs-example-" class="anchor" href="#rejs-example-" aria-hidden="true"><span class="octicon octicon-link"></span></a>rejs-example <a href="https://travis-ci.org/watilde/rejs-example"><img src="https://api.travis-ci.org/watilde/rejs-example.svg" alt="Build Status"></a>
 </h1>
@@ -65,12 +75,9 @@ $ npm test
 
 <p>This software is released under the MIT License, see <a href="/LICENSE">LICENSE</a>.</p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/watilde">watilde</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
               <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
